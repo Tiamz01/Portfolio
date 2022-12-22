@@ -1,0 +1,79 @@
+.main {
+	color: red;
+}
+
+.font-oswald {
+	font-family: "Oswald";
+}
+.font-poppins {
+	font-family: "poppins";
+}
+.font-dance {
+	font-family: "Dancing Script", cursive;
+}
+.header {
+	font: "poppins";
+	font-weight: 500;
+	color: #f0f1ea;
+	text-shadow: 0 0 5px rgba(#ebebf1, 0.5);
+}
+
+.text-animate {
+	display: inline-block;
+	opacity: 0;
+	animation: bounceIn 1s 1s;
+	animation-fill-mode: forwards;
+	min-width: 10px;
+}
+
+.text-animate-hover {
+	min-width: 10px;
+	display: inline-block;
+	animation-fill-mode: both;
+}
+.text-animate-hover:hover {
+	animation: rubberBand 1s;
+	color: rgb(128, 160, 40);
+}
+
+@for $i from 1 through 37 {
+	.text-animate._#{$i} {
+		animation-delay: calc(#{$i/ 10}s);
+	}
+}
+
+.fadeInLeft {
+	opacity: 0;
+	animation: fadeInLeftBig 2s 1s forwards;
+	transition: all 4s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.fadeInUp {
+	opacity: 0;
+	animation: fadeInRight 1.5s forwards;
+	transition: all 0.5s;
+}
+
+.menuItem,
+.menuItem:visited {
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 1rem;
+	text-decoration: none;
+	padding: 0 1rem;
+	color: #222121;
+	background-image: linear-gradient(
+		120deg,
+		transparent 0%,
+		transparent 50%,
+		#5e626fbb 50%
+	);
+	background-size: 220%;
+	transition: all 0.4s;
+
+	&:hover {
+		background-position: 100%;
+		color: rgb(201, 220, 244);
+		transform: translateX(1rem);
+	}
+}
