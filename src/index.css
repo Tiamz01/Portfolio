@@ -21,6 +21,10 @@ body {
 * {
 	scroll-behavior: smooth;
 }
+.fadeIn {
+	opacity: 0;
+	animation: fadeIn 2s 2s forwards;
+}
 
 .text-gradient {
 	background: radial-gradient(

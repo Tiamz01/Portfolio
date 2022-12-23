@@ -1,5 +1,4 @@
 import { Routes, Route } from "react-router-dom";
-
 import { Contact } from "./component";
 import Home from "./component/Home";
 
@@ -23,15 +22,3 @@ function App() {
 }
 
 export default App;
-{
-	/* <Routes>
-				<Route
-					index
-					element={<Hero />}
-				/>
-				<Route
-					path='/Portfolio'
-					element={<Portfolio />}
-				/>
-			</Routes> */
-}

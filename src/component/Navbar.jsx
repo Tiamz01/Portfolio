@@ -1,5 +1,6 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import { FaAngleDown, FaAngleUp, FaMoon } from "react-icons/fa";
+import { Zoom } from "react-reveal";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
@@ -19,11 +20,16 @@ const Navbar = () => {
 			<div
 				className={`flex justify-between items-center px-[2rem] pt-[2rem] relative`}
 			>
-				<HashLink to='#home'>
-					<h2 className=' text-3xl font-poppins text-blue-200/80 drop-shadow-xl shadow-cyan-400 md:text-2xl '>
-						Tiamz.
-					</h2>
-				</HashLink>
+				<Zoom
+					clear
+					duration={1500}
+				>
+					<HashLink to='#home'>
+						<h2 className=' text-3xl font-poppins text-blue-200/80 drop-shadow-xl shadow-cyan-400 md:text-2xl tiamz '>
+							Tiamz.
+						</h2>
+					</HashLink>
+				</Zoom>
 				<div className='flex items-center  gap-7  -ml-[55rem]'>
 					<button
 						name='Open'
@@ -46,7 +52,7 @@ const Navbar = () => {
 				</div>
 			</div>
 			{toggle && (
-				<ul className=' w-[14rem] h-[16rem] px-2 text-lg font-poppins flex items-center flex-col justify-center gap-4 z-20  bg-blue-100 text-center absolute right-10 top-[6rem] rounded-2xl shadow-md shadow-slate-300 opacity-1 fadeInUp md:w-[10rem] md:h-[12rem] md:text-[1rem]'>
+				<ul className=' w-[14rem] h-[16rem] px-2  font-poppins flex items-center flex-col justify-center gap-4   bg-blue-100 text-center absolute right-10 top-[6rem] rounded-2xl shadow-md shadow-slate-300 opacity-1  md:w-[10rem] md:h-[12rem] md:text-[1rem] z-30'>
 					<li
 						className='menuItem'
 						onClick={closeMenu}
