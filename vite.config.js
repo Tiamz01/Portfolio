@@ -6,7 +6,7 @@ export default defineConfig({
 	plugins: [react()],
 	build: {
 		rollupOptions: {
-			external: ["react-reveal"]
+			external: [/^node_modules/react-reveal/]
 		}
 	}
 });
