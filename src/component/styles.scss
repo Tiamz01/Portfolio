@@ -81,14 +81,15 @@
 }
 .tiamz {
 	background-image: linear-gradient(
-		135deg,
-		rgba(#e09c1d, 0.7),
+		to right,
+		rgba(#dd6b07, 0.7),
 		rgba(#bfbce8, 0.9)
 	);
+	-webkit-background-clip: text;
 	font-weight: 500;
 	text-shadow: 0 2px 2px rgba(#e7e7ec, 0.2);
 	background-repeat: no-repeat;
-	-webkit-background-clip: text;
+	color: transparent;
 }
 
 .text-clip {

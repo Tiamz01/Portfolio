@@ -25,7 +25,7 @@ const Navbar = () => {
 					duration={1500}
 				>
 					<HashLink to='#home'>
-						<h2 className=' text-3xl font-poppins text-blue-200/80 drop-shadow-xl shadow-cyan-400 md:text-2xl tiamz '>
+						<h2 className=' text-3xl font-poppins  md:text-2xl tiamz '>
 							Tiamz.
 						</h2>
 					</HashLink>
