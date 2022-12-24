@@ -1,5 +1,4 @@
 import React from "react";
-import { Fade } from "react-reveal";
 import { Link } from "react-router-dom";
 import Button from "../utils/Button";
 import Socials from "../utils/Socials";
