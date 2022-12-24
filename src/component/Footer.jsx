@@ -31,7 +31,12 @@ const Footer = () => {
 
 			<h1 className='text-sm text-bold mt-2 lg:mt-10 p-2 lg:p-0 text-white ml-6 '>
 				Made With ❤ by{" "}
-				<a className='underline underline-offset-3'>Ismail Tiamiyu [Tiamz]</a>
+				<Link
+					to=''
+					className='underline underline-offset-3'
+				>
+					Ismail Tiamiyu [Tiamz]
+				</Link>
 			</h1>
 		</>
 	);

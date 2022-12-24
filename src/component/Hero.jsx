@@ -1,4 +1,3 @@
-import { Zoom, Fade, Roll } from "react-reveal";
 import React, { useState, useEffect } from "react";
 import { infos } from "../data/index.js";
 import Button from "../utils/Button.jsx";

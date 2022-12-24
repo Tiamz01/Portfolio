@@ -1,5 +1,5 @@
 import React from "react";
-import { Fade } from "react-reveal";
+
 import { about } from "../data";
 import Title from "../utils/Title";
 

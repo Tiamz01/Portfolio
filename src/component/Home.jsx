@@ -1,4 +1,3 @@
-import { Fade } from "react-reveal";
 import { About, Footer, Hero, Navbar, Portfolio, Skills } from "../component";
 Fade;
 

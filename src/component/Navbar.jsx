@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaAngleDown, FaAngleUp, FaMoon } from "react-icons/fa";
-import { Zoom } from "react-reveal";
+
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
