@@ -1,5 +1,4 @@
-import { About, Footer, Hero, Navbar, Portfolio, Skills } from "../component";
-Fade;
+import { About, Footer, Hero, Navbar, Portfolio, Skills } from "./index";
 
 const Home = () => {
 	return (
@@ -13,4 +12,5 @@ const Home = () => {
 		</div>
 	);
 };
+
 export default Home;

@@ -1,4 +1,5 @@
 import React from "react";
+
 import { portfolio } from "../data/index.js";
 import Title from "../utils/Title.jsx";
 const Portfolio = () => {

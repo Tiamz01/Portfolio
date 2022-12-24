@@ -1,7 +1,7 @@
 import React from "react";
 
 import { about } from "../data";
-import Title from "../utils/Title";
+import Title from "../utils/Title.jsx";
 
 const About = () => {
 	return (

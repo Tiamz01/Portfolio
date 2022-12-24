@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Button from "../utils/Button";
-import Socials from "../utils/Socials";
+import Button from "../utils/Button.jsx";
+import Socials from "../utils/Socials.jsx";
 
 const Footer = () => {
 	return (
