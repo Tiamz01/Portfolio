@@ -6,7 +6,6 @@ import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
 	const [toggle, setToggle] = useState(false);
-	const { menuClose, setMenuClose } = useState();
 
 	const openMenu = () => {
 		setToggle(!toggle);
@@ -20,16 +19,10 @@ const Navbar = () => {
 			<div
 				className={`flex justify-between items-center px-[2rem] pt-[2rem] relative`}
 			>
-				<Zoom
-					clear
-					duration={1500}
-				>
-					<HashLink to='#home'>
-						<h2 className=' text-3xl font-poppins  md:text-2xl tiamz '>
-							Tiamz.
-						</h2>
-					</HashLink>
-				</Zoom>
+				<HashLink to='#home'>
+					<h2 className=' text-3xl font-poppins  md:text-2xl tiamz '>Tiamz.</h2>
+				</HashLink>
+
 				<div className='flex items-center  gap-7  -ml-[55rem]'>
 					<button
 						name='Open'

@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { FaPaperPlane } from "react-icons/fa";
 
 const Contact = () => {
 	const form = useRef();

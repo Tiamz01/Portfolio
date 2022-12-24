@@ -5,18 +5,12 @@ Fade;
 const Home = () => {
 	return (
 		<div id='home'>
-			<Fade
-				top
-				distance='20%'
-				duration={3000}
-			>
-				<Navbar />
-				<Hero />
-				<Portfolio />
-				<Skills />
-				<About />
-				<Footer />
-			</Fade>
+			<Navbar />
+			<Hero />
+			<Portfolio />
+			<Skills />
+			<About />
+			<Footer />
 		</div>
 	);
 };

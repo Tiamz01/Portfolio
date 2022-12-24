@@ -38,31 +38,22 @@ const Hero = () => {
 								idx={13}
 							/>
 						</h1>
-						<Zoom
-							clear
-							duration={1500}
-						>
-							<div className=' max-w-lg'>
-								<h2 className=' text-white text-xl text-justify font-dance capitalize w-[46rem] md:max-w-[28rem] lg:max-w-[36rem] xsm:lg:max-w-[16rem] sm:text-base sm:font-normal sm:max-w-[20rem]  fadeInLeft  '>
-									{val.text}
-								</h2>
-							</div>
-						</Zoom>
-						<Fade
-							botton
-							duration={2000}
-						>
-							<div className='mt-4'>
-								<Button />
-							</div>
-						</Fade>
+
+						<div className=' max-w-lg'>
+							<h2 className=' text-white text-xl text-justify font-dance capitalize w-[46rem] md:max-w-[28rem] lg:max-w-[36rem] xsm:lg:max-w-[16rem] sm:text-base sm:font-normal sm:max-w-[20rem]  fadeInLeft  '>
+								{val.text}
+							</h2>
+						</div>
+
+						<div className='mt-4'>
+							<Button />
+						</div>
 					</div>
 				))}
-				<Roll duration={2000}>
-					<div className=' -mt-[5rem] sm:-mt-[10rem] sm:text-base xsm:text-[.7rem]'>
-						<Socials />
-					</div>
-				</Roll>
+
+				<div className=' -mt-[5rem] sm:-mt-[10rem] sm:text-base xsm:text-[.7rem]'>
+					<Socials />
+				</div>
 			</div>{" "}
 		</>
 	);
