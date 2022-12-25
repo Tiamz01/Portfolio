@@ -1,18 +1,23 @@
 import React from "react";
-
 import { about } from "../data";
 import Title from "../utils/Title.jsx";
 
 const About = () => {
 	return (
-		<section id='about-me'>
+		<section
+			id='about-me'
+			data-aos='fade-down'
+		>
 			<div className=''>
 				{about.map((val, i) => (
 					<div
 						key={i}
 						className='grid items-center '
 					>
-						<h1 className=''>
+						<h1
+							className=''
+							data-aos='fade-left'
+						>
 							<Title
 								title={val.title}
 								style={{ margin: "1rem  0" }}

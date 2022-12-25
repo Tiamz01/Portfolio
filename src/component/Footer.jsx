@@ -5,10 +5,13 @@ import Socials from "../utils/Socials.jsx";
 
 const Footer = () => {
 	return (
-		<>
+		<section data-aos='fade-left'>
 			<div className='mt-5  p-2 lg:p-0'>
 				<div>
-					<h1 className='text-2xl text-bold ml-6 mb-[3rem] text-white xsm:text-xl'>
+					<h1
+						className='text-2xl text-bold ml-6 mb-[3rem] text-white xsm:text-xl'
+						data-aos='fade-right'
+					>
 						Contact.
 					</h1>
 					<div className='mt-10 ml-6 mb-[3rem]'>
@@ -37,7 +40,7 @@ const Footer = () => {
 					Ismail Tiamiyu [Tiamz]
 				</Link>
 			</h1>
-		</>
+		</section>
 	);
 };
 

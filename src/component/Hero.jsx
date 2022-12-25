@@ -44,7 +44,7 @@ const Hero = () => {
 							</h2>
 						</div>
 
-						<div className='mt-4'>
+						<div className='mt-[2rem] mb-[5rem] '>
 							<Button />
 						</div>
 					</div>

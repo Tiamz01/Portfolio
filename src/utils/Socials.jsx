@@ -3,7 +3,10 @@ import { FaInstagram, FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 const Socials = () => {
 	return (
-		<div className='w-[20rem] sm:text-sm '>
+		<div
+			className='w-[20rem] sm:text-sm '
+			data-aos='slide-in-right'
+		>
 			<div className=' flex items-center gap-6 text-white  '>
 				<div className=' cursor-pointer'>
 					<a

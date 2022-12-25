@@ -1,17 +1,26 @@
-import React from "react";
-
+import React, { useEffect } from "react";
 import { portfolio } from "../data/index.js";
 import Title from "../utils/Title.jsx";
+
 const Portfolio = () => {
 	return (
-		<section id='works'>
-			<div className='relative lg:mt-10 sm:-mt-[5rem] '>
+		<section
+			id='works'
+			data-aos='fade'
+		>
+			<div
+				className='relative lg:mt-10 sm:-mt-[5rem]'
+				data-aos='fade-up'
+			>
 				{portfolio?.map((port, i) => (
 					<div
 						key={i}
 						className=''
 					>
-						<h1 className='ml-6 mb-[2rem] sm:ml-3 sm:text-base font-poppins '>
+						<h1
+							className='ml-6 mb-[2rem] sm:ml-3 sm:text-base font-poppins '
+							data-aos='fade-left'
+						>
 							<Title title={port.title} />
 						</h1>
 

@@ -45,7 +45,7 @@ const Navbar = () => {
 				</div>
 			</div>
 			{toggle && (
-				<ul className=' w-[14rem] h-[16rem] px-2  font-poppins flex items-center flex-col justify-center gap-4   bg-blue-100 text-center absolute right-10 top-[6rem] rounded-2xl shadow-md shadow-slate-300 opacity-1  md:w-[10rem] md:h-[12rem] md:text-[1rem] z-30'>
+				<ul className=' w-[14rem] h-[16rem] px-2  font-poppins flex items-center flex-col justify-center gap-4   bg-blue-100 text-center absolute right-10 top-[6rem] rounded-2xl shadow-md shadow-slate-300 opacity-1  md:w-[10rem] md:h-[12rem] md:text-[1rem] z-30 fadeInUp'>
 					<li
 						className='menuItem'
 						onClick={closeMenu}

@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
 	FaBootstrap,
 	FaCss3,
@@ -11,7 +12,10 @@ import Title from "../utils/Title";
 
 const Skills = () => {
 	return (
-		<div className='mt-7'>
+		<div
+			className='mt-7'
+			data-aos='fade-up'
+		>
 			<div className='header text-white'>
 				<Title title={Skills} />
 			</div>
