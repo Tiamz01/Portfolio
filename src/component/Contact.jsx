@@ -69,8 +69,7 @@ const Contact = () => {
 						className='h-[2rem] text-bold sm:h-[2rem] p-3 rounded-lg outline-none text-gray-800 placeholder-slate-400 border-none shadow-md shadow-zinc-700  '
 						data-aos='fade-up'
 						data-aos-offset='400'
-						data-aos-duration='2000'
-						data-aos-easing='ease-in'
+						data-aos-duration='200'
 					/>
 					<input
 						type='text'
