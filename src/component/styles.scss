@@ -121,3 +121,14 @@
 		transform: translate(2px, 2px);
 	}
 }
+
+#light {
+	background-color: rgb(70, 235, 235);
+	overflow: hidden;
+	color: #222121;
+}
+
+#dark {
+	background: rgb(38, 47, 78);
+	overflow: hidden;
+}

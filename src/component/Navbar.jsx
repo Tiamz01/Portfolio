@@ -39,9 +39,9 @@ const Navbar = () => {
 						)}
 					</button>
 
-					<div className=''>
+					{/* <div className=''>
 						<FaMoon />
-					</div>
+					</div> */}
 				</div>
 			</div>
 			{toggle && (
