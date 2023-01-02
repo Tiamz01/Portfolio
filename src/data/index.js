@@ -9,7 +9,7 @@ const infos = [
 	{
 		img: Tiamz,
 		intro: "hey, I am Ismail",
-		text: "i am a self taught frontend developer and javascript doctor with several months authentic experience in both learning and project. I am open for collaboration and entry level job opportunity."
+		text: "Frontend developer and javascript doctor. I am open for collaboration and entry level job opportunity."
 	}
 ];
 
