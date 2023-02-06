@@ -16,7 +16,7 @@ const infos = [
 const about = [
 	{
 		title: "About Me",
-		text: "Self-thought frontend developer with 7 months plus of learning experience, looking forward to providing high-impact web solutions for diverse industry organizations. Skilled in designing, developing, and testing multiple web-based applications incorporating a range of technologies with over years of working experiences as a customer services professional and small business management. With dynamic, I am so much interest in IT and Music business. I am looking for collaboration mentorship, internship, or a job opportunity in a reputable organization to expand my learnings, knowledge, and skills. Aspiring to combine broad background with strong technical skills to excel as a Front-End Developer. Secure a responsible career opportunity to fully harness my skills, while making a significant contribution to the success of the company."
+		text: "Frontend developer with 1 year plus of learning experience, looking forward to providing high-impact web solutions for diverse industry organizations. Skilled in designing, developing, and testing multiple web-based applications incorporating a range of technologies with over years of working experiences as a customer services professional and small business management. With dynamic, I am so much interest in IT and Music business. I am looking for collaboration mentorship, internship, or a job opportunity in a reputable organization to expand my learnings, knowledge, and skills. Aspiring to combine broad background with strong technical skills to excel as a Front-End Developer. Secure a responsible career opportunity to fully harness my skills, while making a significant contribution to the success of the company."
 	}
 ];
 const portfolio = [

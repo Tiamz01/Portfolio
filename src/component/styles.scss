@@ -38,7 +38,7 @@
 
 @for $i from 1 through 37 {
 	.text-animate._#{$i} {
-		animation-delay: calc(#{$i/ 10}s);
+		animation-delay: calc(#{$i / 10}s);
 	}
 }
 
@@ -63,12 +63,7 @@
 	text-decoration: none;
 	padding: 0 1rem;
 	color: #222121;
-	background-image: linear-gradient(
-		120deg,
-		transparent 0%,
-		transparent 50%,
-		#5e626fbb 50%
-	);
+	background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #5e626fbb 50%);
 	background-size: 220%;
 	transition: all 0.4s;
 	cursor: pointer;
@@ -80,11 +75,7 @@
 	}
 }
 .tiamz {
-	background-image: linear-gradient(
-		to right,
-		rgba(#7cb5f7, 0.7),
-		rgba(#bfbce8, 0.9)
-	);
+	background-image: linear-gradient(to right, rgba(#7cb5f7, 0.7), rgba(#bfbce8, 0.9));
 	-webkit-background-clip: text;
 	font-weight: 500;
 	text-shadow: 0 2px 2px rgba(#e7e7ec, 0.2);
@@ -93,11 +84,7 @@
 }
 
 .text-clip {
-	background-image: linear-gradient(
-		135deg,
-		rgba(#2112f0, 0.7),
-		rgba(#bfbce8, 0.9)
-	);
+	background-image: linear-gradient(135deg, rgba(#2112f0, 0.7), rgba(#bfbce8, 0.9));
 	font-weight: 500;
 	text-shadow: 2px 2px 2px rgba(#e7e7ec, 0.9);
 	margin-bottom: 1rem;
