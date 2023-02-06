@@ -49,7 +49,7 @@ const Navbar = () => {
 						</Link>
 					</li>
 					<li className='menuItem' onClick={closeMenu}>
-						<Link to='/contact'>Contact Mee</Link>
+						<Link to='/contact'>Contact</Link>
 					</li>
 				</ul>
 			)}
