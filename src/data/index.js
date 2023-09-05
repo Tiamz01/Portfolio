@@ -1,4 +1,4 @@
-import Tiamz from "./../assets/photo.png";
+// import Tiamz from "./../assets/photo.png";
 import HR from "./../assets/HR.png";
 import nikey from "../assets/nikey.png";
 import Google_play from "../assets/Google_play.png";
