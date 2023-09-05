@@ -1,8 +1,8 @@
-// import Tiamz from "./../assets/photo.png";
+// import Tiamz from "./../git assets/photo.png";
 import HR from "./../assets/HR.png";
 import nikey from "../assets/nikey.png";
 import Google_play from "../assets/Google_play.png";
-import Oldest_business from "../assets/Oldest_business.png";
+import Oldest_business from "../assets/Google_play.png";
 import Hospitality from "../assets/Hospitality.png";
 // import colorgame from "../assets/colorgame.png";
 import lizan from "../assets/lizan.png";
