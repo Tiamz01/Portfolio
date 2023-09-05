@@ -18,30 +18,17 @@ const Hero = () => {
 		<>
 			<div className='grid items-center  pt-20 px-5 w-full h-[80vh] xsm:-mt-[5rem] '>
 				{infos.map((val, i) => (
-					<div
-						key={i}
-						className='flex flex-col items-start justify-center main'
-					>
+					<div key={i} className='flex flex-col items-start justify-center main'>
 						<h3 className=' text-white text-3xl capitalize xsm:text-lg'>
-							<AnimatedLetters
-								letterClass={letterClass}
-								strArray={"hey, i am Ismail".split("")}
-								idx={1}
-							/>
+							<AnimatedLetters letterClass={letterClass} strArray={"hey, i am Ismail".split("")} idx={1} />
 						</h3>
 
 						<h1 className=' text-[5rem] font-dancing font-bold font-oswald capitalize  lg:text-[4.3rem] md:text-[2rem]  sm:text=[1rem] leading-1 drop-shadow-md text-blue-400 xsm:text-[1.8rem]'>
-							<AnimatedLetters
-								letterClass={letterClass}
-								strArray={"Front-end developer.".split("")}
-								idx={13}
-							/>
+							<AnimatedLetters letterClass={letterClass} strArray={"Data Scientist/Analyst.".split("")} idx={13} />
 						</h1>
 
 						<div className=' max-w-lg'>
-							<h2 className=' text-white text-xl text-justify font-dance capitalize w-[46rem] md:max-w-[28rem] lg:max-w-[36rem] xsm:lg:max-w-[16rem] sm:text-base sm:font-normal sm:max-w-[20rem]  fadeInLeft  '>
-								{val.text}
-							</h2>
+							<h2 className=' text-white text-xl text-justify font-dance capitalize w-[46rem] md:max-w-[28rem] lg:max-w-[36rem] xsm:lg:max-w-[16rem] sm:text-base sm:font-normal sm:max-w-[20rem]  fadeInLeft  '>{val.text}</h2>
 						</div>
 
 						<div className='mt-[2rem] mb-[5rem] '>
