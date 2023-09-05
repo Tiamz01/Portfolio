@@ -44,7 +44,7 @@ const Navbar = () => {
 						</HashLink>
 					</li>
 					<li className='menuItem' onClick={closeMenu}>
-						<Link to='./Tech_Resume.pdf' download='true' target='_blank' rel='noreferrer'>
+						<Link to='./Data_Resume.pdf' download='Tiamz Resume' target='_blank' rel='noreferrer'>
 							Resume
 						</Link>
 					</li>

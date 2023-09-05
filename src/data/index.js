@@ -1,8 +1,9 @@
-// import Tiamz from "./../git assets/photo.png";
-import HR from "./../assets/HR.png";
+import Tiamz from "../assets/photo.png";
+import HR from "../assets/HR.png";
 import nikey from "../assets/nikey.png";
+import Creditcard from "../assets/Creditcard.jpg";
 import Google_play from "../assets/Google_play.png";
-import Oldest_business from "../assets/Google_play.png";
+import Oldest_business from "../assets/Oldest_business.jpg";
 import Hospitality from "../assets/Hospitality.png";
 // import colorgame from "../assets/colorgame.png";
 import lizan from "../assets/lizan.png";
@@ -25,10 +26,10 @@ const about = [
 ];
 const portfolio = [
 	{
-		title: "previous project",
+		title: "Project",
 		projects: [
 			{
-				title: "Sentimental Analysis: The Android App Market on Google Play",
+				title: "Sentimental Analysis:  Google Play Store",
 				text: "The analysis focus on undertsanding users feeling about the apps in the Google  app market",
 				img: Google_play,
 				url: "https://github.com/Tiamz01/Sentimental-Analysis-The-Android-App-Market-on-Google-Play",
@@ -37,7 +38,7 @@ const portfolio = [
 			{
 				title: "Predicting Credit Card Approvals",
 				text: "Using machine learning to predict customer eligibility for credit card approval",
-				img: nikey,
+				img: Creditcard,
 				url: "https://github.com/Tiamz01/Predicting-Credit-Card-Approvals/blob/main/README.md",
 				btn: "View now"
 			},
