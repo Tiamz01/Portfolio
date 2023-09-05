@@ -24,7 +24,7 @@ const Hero = () => {
 						</h3>
 
 						<h1 className=' text-[5rem] font-dancing font-bold font-oswald capitalize  lg:text-[4.3rem] md:text-[2rem]  sm:text=[1rem] leading-1 drop-shadow-md text-blue-400 xsm:text-[1.8rem]'>
-							<AnimatedLetters letterClass={letterClass} strArray={"Data Scientist/Analyst.".split("")} idx={13} />
+							<AnimatedLetters letterClass={letterClass} strArray={"Data Scientist.".split("")} idx={13} />
 						</h1>
 
 						<div className=' max-w-lg'>
