@@ -5,6 +5,8 @@ import Creditcard from "../assets/Creditcard.jpg";
 import Google_play from "../assets/Google_play.png";
 import Oldest_business from "../assets/Oldest_business.jpg";
 import Hospitality from "../assets/Hospitality.png";
+import UI_screenshot from "../assets/UI_screenshot.png";
+import Absenteeism from "../assets/absenteeism.jpeg";
 // import colorgame from "../assets/colorgame.png";
 import lizan from "../assets/lizan.png";
 // import nexter from "../assets/nexter.png";
@@ -28,6 +30,20 @@ const portfolio = [
 	{
 		title: "Project",
 		projects: [
+			{
+				title: "Student Performance Prediction",
+				text: "The project focused on Predicting student score using machine learning",
+				img: UI_screenshot,
+				url: "https://github.com/Tiamz01/ML_Student_Performance_Predictor",
+				btn: "View now"
+			},
+			{
+				title: "Absenteeism Prediction",
+				text: "The project focused on Predicting and understand the  factor for staff absenteeism",
+				img: Absenteeism,
+				url: "https://github.com/Tiamz01/Absenteeism_project",
+				btn: "View now"
+			},
 			{
 				title: "Sentimental Analysis:  Google Play Store",
 				text: "The analysis focus on undertsanding users feeling about the apps in the Google  app market",
