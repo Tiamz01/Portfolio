@@ -1,4 +1,4 @@
-// import Tiamz from "../assets/photo.png";
+import Tiamz from "../assets/photo.png";
 import HR from "../assets/HR.png";
 import nikey from "../assets/nikey.png";
 import Creditcard from "../assets/Creditcard.jpg";
@@ -14,7 +14,7 @@ import bankapp from "../assets/bankapp.png";
 
 const infos = [
 	{
-		// img: Tiamz,
+		img: Tiamz,
 		intro: "hey, I am Ismail",
 		text: "Data professional with experiences in data analysis and predictive analytics."
 	}
