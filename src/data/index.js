@@ -14,7 +14,7 @@ import bankapp from "../assets/bankapp.png";
 
 const infos = [
 	{
-		img: Tiamz,
+		// img: Tiamz,
 		intro: "hey, I am Ismail",
 		text: "Data professional with experiences in data analysis and predictive analytics."
 	}
