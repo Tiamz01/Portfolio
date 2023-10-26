@@ -7,6 +7,8 @@ import Oldest_business from "../assets/Oldest_business.jpg";
 import Hospitality from "../assets/Hospitality.png";
 import UI_screenshot from "../assets/UI_screenshot.png";
 import Absenteeism from "../assets/absenteeism.jpeg";
+import ECS from "../assets/ECS.jpeg";
+import BKS from "../assets/BCS.jpeg";
 // import colorgame from "../assets/colorgame.png";
 import lizan from "../assets/lizan.png";
 // import nexter from "../assets/nexter.png";
@@ -38,10 +40,24 @@ const portfolio = [
 				btn: "View now"
 			},
 			{
+				title: "Email/SMS classificaition system",
+				text: "The project focused on classify in incoming sms or email as either spam or not. It is Machine learning classification algorithm",
+				img: ECS,
+				url: "https://emailspamclassification-sb4xawajku9yn6wyahuk4f.streamlit.app/",
+				btn: "View now"
+			},
+			{
 				title: "Absenteeism Prediction",
 				text: "The project focused on Predicting and understand the  factor for staff absenteeism",
 				img: Absenteeism,
 				url: "https://github.com/Tiamz01/Absenteeism_project",
+				btn: "View now"
+			},
+			{
+				title: "Book recommendation system",
+				text: "The project focused on suggesting books based on close proximity to the intended search using K Nearest Neigbor",
+				img: BKS,
+				url: "https://bookrecommendationsystem-alsqf8anh38pyvwutmjv6a.streamlit.app/",
 				btn: "View now"
 			},
 			{
