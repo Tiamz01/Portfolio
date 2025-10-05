@@ -25,7 +25,14 @@ const infos = [
 const about = [
     {
         title: "About Me",
-        text: "Passionate frontend developer with skills in HTML, CSS, JavaScript, and modern frameworks like React. Experienced in creating responsive, accessible, and user-friendly web applications. Skilled in translating designs into interactive experiences with attention to detail and performance optimization. Continuously learning and staying updated with the latest frontend technologies and best practices. Eager to take on new challenges and create impactful web solutions. Aspire to grow into a well-rounded frontend development expert - mastering the full spectrum from UI implementation to state management and performance optimization. Confident that persistence, creativity, and lifelong learning will lead to greater impact."
+        text: "I’m a passionate Front-End Developer skilled in HTML, CSS, JavaScript, and modern frameworks like React and Remix. \
+		I specialize in building responsive, accessible, and high-performance web applications that deliver seamless user experiences. \
+		I have hands-on experience turning complex designs into interactive, user-friendly interfaces using Tailwind CSS, TypeScript, \
+		and modern UI best practices. My focus is always on creating clean, maintainable code while optimizing for speed, scalability, \
+		and accessibility. I’m deeply committed to continuous learning and staying ahead of emerging trends in the frontend ecosystem. \
+		My goal is to become a well-rounded frontend engineer, mastering everything from UI implementation and state management to \
+		API integration and performance optimization. I believe persistence, creativity, and curiosity are the driving forces behind \
+		impactful web solutions and I bring those values to every project I work on."
     }
 ];
 const portfolio = [
