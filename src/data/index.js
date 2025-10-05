@@ -25,8 +25,8 @@ const infos = [
 const about = [
     {
         title: "About Me",
-        text: "I’m a passionate Front-End Developer skilled in HTML, CSS, JavaScript, and modern frameworks like React and Remix. \
-		I specialize in building responsive, accessible, and high-performance web applications that deliver seamless user experiences. \
+        text: "I am a passionate Front-End Developer skilled in HTML, CSS, JavaScript, and modern frameworks like React and Remix. \
+		I am specialized in building responsive, accessible, and high-performance web applications that deliver seamless user experiences. \
 		I have hands-on experience turning complex designs into interactive, user-friendly interfaces using Tailwind CSS, TypeScript, \
 		and modern UI best practices. My focus is always on creating clean, maintainable code while optimizing for speed, scalability, \
 		and accessibility. I’m deeply committed to continuous learning and staying ahead of emerging trends in the frontend ecosystem. \
