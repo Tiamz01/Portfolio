@@ -51,7 +51,7 @@ const portfolio = [
                 title: "Lizan",
                 text: "A music streaming app with a real time music update using Rapid Api built with react, redux and react Toolkit",
                 img: lizan,
-                url: "https://effortless-lokum-dcfbf3.netlify.app/",
+                url: "https://lizan-78ea.vercel.app/",
                 btn: "View now"
             }, {
                 title: "Nexter",
