@@ -3,6 +3,7 @@ import nikey from "../assets/nikey.png";
 import colorgame from "../assets/colorgame.png";
 import lizan from "../assets/lizan.png";
 import nexter from "../assets/nexter.png";
+import ECS from "../assets/ECS.png";
 import HR from "../assets/HR.png";
 import Creditcard from "../assets/Creditcard.jpg";
 import Google_play from "../assets/Google_play.png";
@@ -10,7 +11,6 @@ import Oldest_business from "../assets/Oldest_business.jpg";
 import Hospitality from "../assets/Hospitality.png";
 import UI_screenshot from "../assets/UI_screenshot.png";
 import Absenteeism from "../assets/absenteeism.jpeg";
-// import ECS from "../assets/ECS.jpeg";
 import BKS from "../assets/BCS.jpeg";
 import bankapp from "../assets/bankapp.png";
 
@@ -18,19 +18,19 @@ const infos = [
     {
         img: Tiamz,
         intro: "hey, I am Ismail",
-        text: "Frontend developer with experience in intergrating ML/AI model in creating responsive and interactive web applications."
+        text: "specializing in building responsive, interactive web applications and integrating AI/ML models to deliver smarter, data-driven user experiences."
     }
 ];
 
 const about = [
     {
         title: "About Me",
-        text: "I’m a passionate Frontend Developer with a strong foundation in JavaScript, React, and modern UI frameworks, and a growing focus on integrating AI and Machine Learning into user experiences. \
-		My background in Data Science and Machine Learning allows me to design not only responsive and interactive interfaces but also intelligent applications that deliver data-driven insights in real time.\
-		I enjoy building products where data meets design from dashboards that visualize predictive analytics to interfaces that interact seamlessly with AI-powered APIs. With hands-on experience in Python, \
-		Scikit-learn, Flask, and RESTful API integration, I bridge frontend engineering with backend intelligence, creating smart, efficient, and human-centered digital solutions.\
-		I’m committed to continuous learning, exploring emerging technologies like LLMs, data visualization, and AI-assisted UX, and collaborating with teams to push the boundaries \
-		of what’s possible on the web."
+        text: "I am an experienced Frontend Developer with over 4 years+ of experience building with JavaScript, React, and modern UI frameworks across various industries, and a growing focus on integrating AI and Machine Learning into user experiences. " +
+        "My background in Data Science and Machine Learning allows me to design not only responsive and interactive interfaces but also intelligent applications that deliver data-driven insights in real time. " +
+        "I enjoy building products where data meets design from dashboards that visualize predictive analytics to interfaces that interact seamlessly with AI-powered APIs. With hands-on experience in Python, " +
+        "Scikit-learn, Flask, and RESTful API integration, I bridge frontend engineering with backend intelligence, creating smart, efficient, and human-centered digital solutions. " +
+        "I'm committed to continuous learning, exploring emerging technologies like LLMs, data visualization, and AI-assisted UX, and collaborating with teams to push the boundaries " +
+        "of what's possible on the web."
     }
 ];
 const portfolio = [
