@@ -65,13 +65,6 @@ const portfolio = [
 				url: "https://voluble-axolotl-534afa.netlify.app/",
 				btn: "View now"
 			},
-				{
-				title: "Color Game",
-				text: "This is a color RGB game built mainly on javascript",
-				img: colorgame,
-				url: "https://sneakernews.com/2022/09/14/air-jordan-37-low/",
-				btn: "View now"
-			},
 			 {
 				title: "Book recommendation system",
 				text: "The project focused on suggesting books based on close proximity to the intended search using K Nearest Neigbor",
@@ -87,6 +80,13 @@ const portfolio = [
 				url: "https://emailspamclassification-sb4xawajku9yn6wyahuk4f.streamlit.app/",
 				btn: "View now"
 			},
+			// {
+			// 	title: "Color Game",
+			// 	text: "This is a color RGB game built mainly on javascript",
+			// 	img: colorgame,
+			// 	url: "https://sneakernews.com/2022/09/14/air-jordan-37-low/",
+			// 	btn: "View now"
+			// },
 			// {
 			// 	title: "Student Performance Prediction",
 			// 	text: "The project focused on Predicting student score using machine learning",
